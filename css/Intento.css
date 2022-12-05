@@ -1,0 +1,30 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+section{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    margin-left: 20px;
+}
+img{
+    opacity: 3;
+    width: 300px;
+}
+
+img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
